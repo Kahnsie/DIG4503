@@ -8,7 +8,7 @@ axios('https://pokeapi.co/api/v2/pokemon/pikachu')
 
         // In this example, the above URL will return an object
         //  with data on the Pokemon requested
-        console.log("This is a " + pokemon.name + " and its ID is " + pokemon.id);
+        console.log(chalk.yellow("This is a " + pokemon.name + " and its ID is " + pokemon.id));
     })
     .catch(function (error) {
         // handle error
